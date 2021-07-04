@@ -45,8 +45,8 @@ export default function Colofon() {
 	return (
 		<Layout>
 			<Head>
-				<title>Colofon – Pieter Roozen</title>
-				<meta property="og:title" content="Colofon – Pieter Roozen" />
+				<title>Colofon</title>
+				<meta property="og:title" content="Colofon" />
 				<meta
 					name="description"
 					content="Gedreven ontwerpen met typografie, content

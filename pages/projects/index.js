@@ -56,7 +56,7 @@ export default function Projects() {
 		<Layout>
 			<Head>
 				<title>Projects – Pieter Roozen</title>
-				<meta property="og:title" content="Projects – Pieter Roozen" />
+				<meta property="og:title" content="Projects" />
 				<meta
 					name="description"
 					content="Gedreven ontwerpen met typografie, content

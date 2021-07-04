@@ -41,10 +41,10 @@ export default function Proclaimer() {
 	return (
 		<Layout>
 			<Head>
-				<title>Proclaimer – Pieter Roozen</title>
+				<title>Proclaimer</title>
 				<meta
 					property="og:title"
-					content="Proclaimer – Pieter Roozen"
+					content="Proclaimer"
 				/>
 				<meta
 					name="description"

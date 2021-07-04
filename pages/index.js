@@ -37,7 +37,7 @@ const Home = () => {
 		<Layout>
 			<Head>
 				<title>Studio Roozen</title>
-				<meta property="og:title" content="Studio Roozen" />
+				<meta property="og:title" content="Home" />
 				<meta
 					name="description"
 					content="Gedreven ontwerpen met typografie, content
