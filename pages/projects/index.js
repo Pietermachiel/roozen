@@ -55,7 +55,7 @@ export default function Projects() {
 	return (
 		<Layout>
 			<Head>
-				<title>Projects – Pieter Roozen</title>
+				<title>Projects</title>
 				<meta property="og:title" content="Projects" />
 				<meta
 					name="description"

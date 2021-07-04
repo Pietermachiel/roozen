@@ -36,7 +36,7 @@ const Home = () => {
 	return (
 		<Layout>
 			<Head>
-				<title>Studio Roozen</title>
+				<title>Home</title>
 				<meta property="og:title" content="Home" />
 				<meta
 					name="description"
