@@ -73,6 +73,9 @@ const Header = () => {
             />
             </div>
             )}
+           {typeof window !== 'undefined' && window.location.pathname === "/proclaimer" && (
+             <div className="w-450 hidden md:block"></div>
+            )}
           </div>
         </div>
       </header>

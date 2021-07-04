@@ -52,21 +52,21 @@ export default function Proclaimer() {
 					en sterke verhalen"
 				/>
 			</Head>
-			<div className="container-x">
-				<div className="heading-image hidden md:block z-10">
-					<Image
-						// loader={myLoader}
-						src="/img/tyger.jpg"
-						alt="Proclaimer"
-						// layout="fill"
-						width={2680}
-						height={870}
-					/>
-				</div>
-				<div className="container-project colofon unvisable slide work-grid-item">
+			<div className="mt-18 hidden md:block z-10">
+				<Image
+					// loader={myLoader}
+					src="/img/tyger.jpg"
+					alt="Proclaimer"
+					// layout="fill"
+					width={2680}
+					height={870}
+				/>
+			</div>			
+			<div className="max-w-screen-lg m-auto">
+				<div className="mt-36 unvisable slide work-grid-item">
 					{/* <h1>{allPosts.title}</h1> */}
 					<BlockContent
-						className="kramdown"
+						className="proclaimer"
 						blocks={allPosts.body}
 						projectId={sanityClient.clientConfig.projectId}
 						dataset={sanityClient.clientConfig.dataset}

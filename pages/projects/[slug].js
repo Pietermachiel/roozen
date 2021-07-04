@@ -56,7 +56,7 @@ const Project = (postData) => {
 				</Head>
 				
 				<div className="max-w-full m-auto px-20 mt-100 unvisable slide work-grid-item">
-					<h1 className={`max-w-screen-md m-auto text-center text-72 pb-18 fira-100 ${postData.color}`}>{postData.title}</h1>
+					<h1 className={`max-w-screen-md m-auto text-center text-72 pb-36 fira-100 ${postData.color}`}>{postData.title}</h1>
 					<BlockContent
 						className="project"
 						blocks={postData.body}
