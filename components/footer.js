@@ -11,7 +11,7 @@ const Footer = () => {
 				{/* studio roozen */}
 				<div className="md:w-50 px-50 text-center mt-24 text-gray-500">
 					<p>
-						<Link href="/studioroozen">
+						<Link href="/">
 							<a className="font-700">Studio Roozen</a>
 						</Link>
 					</p>
