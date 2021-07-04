@@ -45,8 +45,8 @@ const Home = () => {
 				/>
 			</Head>
 			<Fragment>
-      <div className="max-w-screen-lg m-auto unvisable slide work-grid-item">
-					<p className="mb-24 fira-100 lg:fira-300 text-24 lg:text-36 pt-18 w-250 lg:w-550">
+      <div className="max-w-screen-lg px-18 m-auto unvisable slide work-grid-item">
+					<p className="mb-24 fira-100 lg:fira-300 text-24 lg:text-36 pt-18 w-full md:w-75 lg:w-550">
 						studio roozen was een multidisciplinair ontwerpbureau,
 						onder leiding van{' '}
 						<Link href="/pieterroozen">
@@ -56,13 +56,13 @@ const Home = () => {
 							</Link>,
 						gespecialiseerd in redactionele vormgeving.
 					</p>
-					<p className="fira-100 text-24 lg:text-36 text-red-500 w-250 lg:w-550">
+					<p className="fira-100 text-24 lg:text-36 text-red-500 w-full md:w-75 lg:w-550">
 						sinds <span className="text-31 lg:text-32">2015</span>{' '}
 						werkt pieter roozen weer zelfstandig.
 					</p>
 					<p></p>
 
-					<div className="mt-72 unvisable slide work-grid-item">
+					<div className="mt-72 mb-100 unvisable slide work-grid-item">
 						<BlockContent
 							className="kramdown"
 							blocks={allPosts.body}

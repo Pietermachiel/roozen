@@ -27,9 +27,9 @@ const Header = () => {
               <a className="mono">projecten</a>
             </Link>	
            </div> 	
-           <div className="unvisable slide work-grid-item">
+           <div className="unvisable slide work-grid-item hidden lg:block">
              {typeof window !== 'undefined' && window.location.pathname === "/" && (
-             <div className="w-350 ml-28 h-350 mr-72 mt-72 relative z-0 hidden md:block">
+             <div className="w-350 ml-28 h-350 mr-72 mt-72 relative z-0">
              	<Image
 								src="/img/pieter_logo.png"
 								alt=""
@@ -38,7 +38,7 @@ const Header = () => {
             </div>
            )}           
            {typeof window !== 'undefined' && window.location.pathname.includes("/projects") && (
-             <div className="w-450 hidden md:block">
+             <div className="w-450">
              <Image
 							// loader={myLoader}
 							src="/img/studiointerieur.jpg"
@@ -50,7 +50,7 @@ const Header = () => {
             </div>
            )}
            {typeof window !== 'undefined' && window.location.pathname === "/pieterroozen" && (
-             <div className="w-450 hidden md:block">
+             <div className="w-450">
              <Image
 							// loader={myLoader}
 							src="/img/klaprozen.jpg"
@@ -62,7 +62,7 @@ const Header = () => {
             </div>
            )}
            {typeof window !== 'undefined' && window.location.pathname === "/colofon" && (
-             <div className="w-450 hidden md:block">
+             <div className="w-450">
               <Image
                 // loader={myLoader}
                 src="/img/studioroozen.jpg"
@@ -74,7 +74,7 @@ const Header = () => {
             </div>
             )}
            {typeof window !== 'undefined' && window.location.pathname === "/proclaimer" && (
-             <div className="w-450 hidden md:block"></div>
+             <div className="w-450"></div>
             )}
           </div>
         </div>

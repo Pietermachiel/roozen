@@ -60,7 +60,6 @@
 		}
 	}
 
-
 	p,
   // blockquote,
   ul,
@@ -81,6 +80,13 @@
 			line-height: 36px;
 		}
 	}
+
+	p {
+		@media screen and (min-width: $on-palm) {
+			width: 75%;
+		}
+	}
+
 
 	ul {
 		li {

@@ -41,13 +41,13 @@ export default function Pieterroozen() {
 				/>
 			</Head>
 			<Fragment>
-				<div className="max-w-screen-lg m-auto unvisable slide work-grid-item">
-					<p className="mb-24 fira-100 lg:fira-300  text-24 lg:text-36 text-red-500 pt-18 w-250 lg:w-550">
+				<div className="max-w-screen-lg m-auto px-18 unvisable slide work-grid-item">
+					<p className="mb-24 fira-100 lg:fira-300  text-24 lg:text-36 text-red-500 pt-18 w-full md:w-75 lg:w-550">
 						pieter roozen is een enthousiaste, veelzijdige en
 						resultaat gerichte ontwerper met passie voor typografie,
 						content en sterke verhalen.
 					</p>
-					<p className="mb-24 fira-100 text-24 lg:text-36 text-black w-250 lg:w-550">
+					<p className="mb-24 fira-100 text-24 lg:text-36 text-black w-full md:w-75 lg:w-550">
 						bakt dagelijks zuurdesembrood, gaat bergklimmen op skies
 						en solozeilen op zee. vader van vier, partner van ruth.
 					</p>
