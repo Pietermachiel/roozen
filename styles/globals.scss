@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@charset "utf-8";
+
+$mono: "Fira Mono";
+
+$mono: 'Fira Mono';
+$on-palm: 768px;
+$on-tablet: 1024px;
+$on-laptop: 1260px;
+
+html {
+  box-sizing: border-box;
+  font-family: "MuseoSans", Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: #111;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-spacing: -0.05em;
+  letter-spacing: 0.025em;
+  font-feature-settings: "kern" 1;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+}
+
+@import "./sass/color", "./sass/grid", "./sass/kramdown", "./sass/project", "./sass/projecten", "./sass/typo", "./sass/workgrid";

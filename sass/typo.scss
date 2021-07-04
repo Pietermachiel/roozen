@@ -1,0 +1,266 @@
+/*------------------------------------*\
+  #BASICS-TYPO
+\*------------------------------------*/
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Book.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Heavy.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira/FiraSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/museo/MuseoSans_100-webfont.woff") format("woff"),
+    url("../fonts/museo/MuseoSans_100-webfont.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/museo/MuseoSans_300-webfont.woff") format("woff"),
+    url("../fonts/museo/MuseoSans_300-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/museo/MuseoSans_500-webfont.woff") format("woff"),
+    url("../fonts/museo/MuseoSans_500-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/museo/MuseoSans_700-webfont.woff") format("woff"),
+    url("../fonts/museo/MuseoSans_700-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("../fonts/museo/MuseoSans_900-webfont.woff") format("woff"),
+    url("../fonts/museo/MuseoSans_900-webfont.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mono {
+  font-family: "Fira Mono";
+}
+
+.museo-100 {
+  font-family: "MuseoSans";
+  font-weight: 100 !important;
+  // line-height: 1.4 !important;
+}
+
+.museo-300 {
+  font-family: "MuseoSans";
+  font-weight: 300 !important;
+  // line-height: 1.4 !important;
+}
+
+.museo-500 {
+  font-family: "MuseoSans";
+  font-weight: 500 !important;
+  // line-height: 1.4 !important;
+}
+
+.museo-700 {
+  font-family: "MuseoSans";
+  font-weight: 700 !important;
+  // line-height: 1.4 !important;
+}
+
+.museo-900 {
+  font-family: "MuseoSans";
+  font-weight: 900 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-100 {
+  font-family: "FiraSans";
+  font-weight: 100 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-200 {
+  font-family: "FiraSans";
+  font-weight: 200 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-300 {
+  font-family: "FiraSans";
+  font-weight: 300 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-400 {
+  font-family: "FiraSans";
+  font-weight: 400 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-500 {
+  font-family: "FiraSans";
+  font-weight: 500 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-600 {
+  font-family: "FiraSans";
+  font-weight: 600 !important;
+  // line-height: 1.4 !important;
+}
+
+.fira-700 {
+  font-family: "FiraSans";
+  font-weight: 700 !important;
+  // line-height: 1.4 !important;
+}
+
+.display-none {
+  display: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+p,
+b,
+strong,
+a {
+  line-height: 1.6;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+
+
+p,
+li {
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+b {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+button,
+input {
+  &:focus {
+    outline: -webkit-focus-ring-color auto 0;
+  }
+}
+
+.first-letter {
+  p::first-letter {
+    font-size: 21px;
+    font-weight: 700;
+    // color: black;
+  }
+  p:hover {
+    color: red;
+  }
+}
+
+.text-shadow {
+  text-shadow: 5px 5px 25px #8d8d8c;
+}
+
+.interlinie-11 {
+  line-height: 1.1em;
+}
+
+.spatie-pieter {
+	letter-spacing: 0.04em;
+}

@@ -1,0 +1,64 @@
+.visable {
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+.unvisable {
+	opacity: 0.01;
+	transition: opacity 500ms;
+}
+
+.slide {
+	animation: slide 0.3s ease-in forwards;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slide-R {
+	animation: slide 1s ease-in forwards;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@media (min-width: $on-palm) {
+	.work-grid-item:nth-child(2n) {
+		animation-delay: 0s;
+	}
+	.work-grid-item:nth-child(3n + 2) {
+		animation-delay: 0.1s;
+	}
+	.work-grid-item:nth-child(3n) {
+		animation-delay: 0.2s;
+	}
+}
+@media (min-width: $on-tablet) {
+	.work-grid-item:nth-child(3n + 2) {
+		animation-delay: 0s;
+	}
+	.work-grid-item:nth-child(3n) {
+		animation-delay: 0s;
+	}
+	.work-grid-item:nth-child(4n) {
+		animation-delay: 0.3s;
+	}
+	.work-grid-item:nth-child(4n + 3) {
+		animation-delay: 0.2s;
+	}
+	.work-grid-item:nth-child(4n + 2) {
+		animation-delay: 0.1s;
+	}
+}
