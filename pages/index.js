@@ -30,8 +30,8 @@ const Home = () => {
 			.catch(console.error);
 	}, []);
 
-	console.log('allPosts');
-	console.log(allPosts);
+	// console.log('allPosts');
+	// console.log(allPosts);
 
 	return (
 		<Layout>

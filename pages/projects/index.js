@@ -39,8 +39,8 @@ export default function Projects() {
 			.catch(console.error);
 	}, []);
 
-	console.log('allPosts');
-	console.log(allPosts);
+	// console.log('allPosts');
+	// console.log(allPosts);
 
 	// const postsSorted = allPosts.sort((a, b) => {
 	// 	const aYear = parseInt(a.year);

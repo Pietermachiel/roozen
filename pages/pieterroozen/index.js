@@ -26,8 +26,8 @@ export default function Pieterroozen() {
 			.catch(console.error);
 	}, []);
 
-	console.log('allPosts');
-	console.log(allPosts);
+	// console.log('allPosts');
+	// console.log(allPosts);
 
 	return (
 		<Layout>

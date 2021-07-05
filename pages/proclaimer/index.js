@@ -35,8 +35,8 @@ export default function Proclaimer() {
 			.catch(console.error);
 	}, []);
 
-	console.log('allPosts');
-	console.log(allPosts);
+	// console.log('allPosts');
+	// console.log(allPosts);
 
 	return (
 		<Layout>
