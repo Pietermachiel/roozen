@@ -3,6 +3,14 @@
 \*------------------------------------*/
 
 @font-face {
+  font-family: "FiraMono";
+  src: url("../fonts/fira/FiraMono-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "FiraSans";
   src: url("../fonts/fira/FiraSans-Light.woff") format("woff");
   font-weight: 100;
@@ -103,8 +111,9 @@
   font-display: swap;
 }
 
-.mono {
-  font-family: "Fira Mono";
+.fira-mono {
+  font-family: "FiraMono";
+  font-weight: 300 !important;
 }
 
 .museo-100 {

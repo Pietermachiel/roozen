@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex flex-row justify-between fixed top-0 right-0 z-10">
          <div className="w-150 pt-30">
             <Link href="/projects">
-              <a className="mono">projecten</a>
+              <a className="fira-mono">projecten</a>
             </Link>	
            </div> 	
            <div className="unvisable slide work-grid-item hidden lg:block">
