@@ -251,17 +251,6 @@ input {
   }
 }
 
-.first-letter {
-  p::first-letter {
-    font-size: 21px;
-    font-weight: 700;
-    // color: black;
-  }
-  p:hover {
-    color: red;
-  }
-}
-
 .text-shadow {
   text-shadow: 5px 5px 25px #8d8d8c;
 }

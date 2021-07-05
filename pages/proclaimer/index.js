@@ -66,7 +66,7 @@ export default function Proclaimer() {
 				<div className="mt-36 unvisable slide work-grid-item">
 					{/* <h1>{allPosts.title}</h1> */}
 					<BlockContent
-						className="proclaimer"
+						className="kramdown"
 						blocks={allPosts.body}
 						projectId={sanityClient.clientConfig.projectId}
 						dataset={sanityClient.clientConfig.dataset}
