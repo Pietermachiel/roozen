@@ -9,15 +9,15 @@ const Header = () => {
         <div className="mx-21 mt-18 text-24 fira-400">
           <Link aria-label="" href="/">
             <a>
-              <h6 className="">studio roozen /</h6>
+              <h6 className="hoogte-48">studio roozen /</h6>
             </a>
           </Link>
           <Link aria-label="Pieter Roozen" href="/pieterroozen">
             <a className="text-red-500 ">
-              <h6 className="">
-                <span className="spatie-pieter">pieter&nbsp;</span>
+              <div className="hoogte-48 margintop-24">
+                  <span className="spatie-pieter">pieter&nbsp;</span>
                 roozen
-              </h6>
+              </div>
             </a>
           </Link>
         </div>
