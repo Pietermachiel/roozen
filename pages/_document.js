@@ -10,6 +10,7 @@ class MyDocument extends Document {
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="apple-touch-icon" href="/logo-128x128.png" />
 					<link rel="theme-color" href="#fff" />
+					<meta name="theme-color" content="#fff" />
 					<script
 						async
 						src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
