@@ -64,7 +64,7 @@ export default function Projects() {
 				/>
 			</Head>
 			<Fragment>
-				<div className="max-w-screen-xl m-auto mt-84 lg:mt-100 mx-18">
+				<div className="max-w-screen-xl m-auto mt-48 lg:mt-100 mx-18">
 				  <div className="flex lg:block flex-row flex-wrap justify-between">
 							{allPosts &&
 								allPosts
