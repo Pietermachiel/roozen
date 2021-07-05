@@ -6,7 +6,7 @@ class MyDocument extends Document {
 		return (
 			<Html lang="nl">
 				<Head>
-					<meta property="og:site_name" content="Pieter Roozen" />
+					<meta property="og:site_name" content="Studio Roozen" />
 					<link rel="manifest" href="/manifest.json" />
 					<link rel="apple-touch-icon" href="/logo-128x128.png" />
 					<link rel="theme-color" href="#fff" />
