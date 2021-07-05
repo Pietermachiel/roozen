@@ -85,7 +85,7 @@ export default function Projects() {
 																		position: "relative",
 																		// width: "675px",
 																		// height: "600px",
-																		maxWidth: "600px",
+																		maxWidth: "675px",
 																		maxHeight: "600px",
 																	}}>
 																<Image
@@ -98,8 +98,8 @@ export default function Projects() {
 																	// 	maxWidth: "675px",
 																	// 	maxHeight: "600px",
 																	// }}
+																	width="675px"
 																	height="600px"
-																	width="600px"
 																	className=""
 																/>
 																<div className="hidden lg:block w-full lg:absolute lg:top-0 p-42 lg:mt-0 mb-10 ">
