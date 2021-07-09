@@ -54,7 +54,7 @@ const Home = () => {
 									pieter roozen
 								</a>
 							</Link>,
-						gespecialiseerd in redactionele vormgeving.
+						gespecialiseerd in redactionele vormgeving voor de grote Nederlandse musea.
 					</p>
 					<p className="fira-100 text-24 lg:text-36 text-red-500 w-full md:w-75 lg:w-550">
 						sinds <span className="text-31 lg:text-32">2015</span>{' '}
