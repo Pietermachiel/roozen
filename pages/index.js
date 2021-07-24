@@ -14,7 +14,7 @@ const Home = () => {
 	useEffect(() => {
 		sanityClient
 			.fetch(
-				`*[_type == "studio"]{
+				`*[_type == "studio" && title == "Studio"]{
             title,
             email,
             body,

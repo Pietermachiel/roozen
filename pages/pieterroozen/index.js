@@ -11,7 +11,7 @@ export default function Pieterroozen() {
 	useEffect(() => {
 		sanityClient
 			.fetch(
-				`*[_type == "about"]{
+				`*[_type == "about" && title == "Nederlands"]{
             title,
             body,
             mainImage{
