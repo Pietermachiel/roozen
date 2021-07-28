@@ -16,7 +16,7 @@ const Footer = () => {
 						</Link>
 					</p>
 					<p className="font-700 text-18 leading-7 text-gray-500">
-						Een multidisciplinair ontwerpbureau, onder leiding van
+						Voormalig multidisciplinair ontwerpbureau, onder leiding van
 						Pieter Roozen, sinds 1981, in wisselende samenstelling
 						en in samenwerking met diverse specialisten. Sinds 2015
 						werkt Pieter Roozen weer zelfstandig.
