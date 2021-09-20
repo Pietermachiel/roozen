@@ -13,7 +13,7 @@ class MyDocument extends Document {
 					<meta name="theme-color" content="#fff" />
 					<script
 						async
-						src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+						src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
 					/>
 					<script
 						dangerouslySetInnerHTML={{
@@ -21,7 +21,7 @@ class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
               page_path: window.location.pathname,
             });
           `
