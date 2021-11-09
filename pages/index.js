@@ -4,9 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/layout';
 import sanityClient from '../client.js';
 import BlockContent from '@sanity/block-content-to-react';
-
 // https://p9o8p559.api.sanity.io/v1/data/query/production?query=*[0]
-
 
 const Home = () => {
 	const [allPosts, setAllPosts] = useState([]);
@@ -45,16 +43,17 @@ const Home = () => {
 				/>
 			</Head>
 			<Fragment>
-      <div className="max-w-screen-lg px-18 m-auto unvisable slide work-grid-item">
+				<div className="max-w-screen-lg px-18 m-auto unvisable slide work-grid-item">
 					<p className="mb-24 fira-100 lg:fira-300 text-24 lg:text-36 pt-18 w-full md:w-75 lg:w-550">
 						studio roozen was een multidisciplinair ontwerpbureau,
 						onder leiding van{' '}
 						<Link href="/pieterroozen">
-								<a className="text-red-500 hover:text-black hover:font-300 border-b border-red-500">
-									pieter roozen
-								</a>
-							</Link>,
-						gespecialiseerd in redactionele vormgeving voor de grote Nederlandse musea.
+							<a className="text-red-500 hover:text-black hover:font-300 border-b border-red-500">
+								pieter roozen
+							</a>
+						</Link>
+						, gespecialiseerd in redactionele vormgeving voor de
+						grote Nederlandse musea.
 					</p>
 					<p className="fira-100 text-24 lg:text-36 text-red-500 w-full md:w-75 lg:w-550">
 						sinds <span className="text-31 lg:text-32">2015</span>{' '}
